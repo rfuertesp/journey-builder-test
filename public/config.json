@@ -22,7 +22,7 @@
                 }									
 			],
           "outArguments": [],
-          "url": "http://requestbin.fullcontact.com/1fu4q7y1",
+          "url": "http://requestbin.fullcontact.com/1fu4q7y1/execute",
            "verb": "POST",
             "body": "",
             "header": "",
@@ -34,22 +34,22 @@
     "configurationArguments": {
       "applicationExtensionKey": "fd4b4c3a-d86a-4e0d-b39a-4542dac142d3",
       "save": {
-        "url": "http://requestbin.fullcontact.com/1fu4q7y1/save",
+        "url": "https://requestbin.fullcontact.com/1fu4q7y1/save",
           "verb": "POST",
         "useJwt": true
        },
        "publish": {
-        "url": "http://requestbin.fullcontact.com/1fu4q7y1/publish",
+        "url": "https://requestbin.fullcontact.com/1fu4q7y1/publish",
            "verb": "POST",
         "useJwt": true
        },
       "stop": {
-        "url": "http://requestbin.fullcontact.com/1fu4q7y1/stop",
+        "url": "https://requestbin.fullcontact.com/1fu4q7y1/stop",
            "verb": "POST",
         "useJwt": true
       },
       "validate": {
-        "url": "http://requestbin.fullcontact.com/1fu4q7y1/validate",
+        "url": "https://requestbin.fullcontact.com/1fu4q7y1/validate",
         "verb": "POST",
         "useJwt": true
       }

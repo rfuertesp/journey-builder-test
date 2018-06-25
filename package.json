@@ -1,0 +1,22 @@
+{
+  "name": "journey-builder-test",
+  "version": "1.0.0",
+  "description": "Journey Builder Activity Template",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rfuertesp/journey-builder-test.git"
+  },
+  "keywords": [
+    "journey",
+    "builder",
+    "salesforce marketing cloud",
+    "heroku"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rfuertesp/journey-builder-test/issues"
+  },
+  "homepage": "https://github.com/rfuertesp/journey-builder-test#readme"
+}

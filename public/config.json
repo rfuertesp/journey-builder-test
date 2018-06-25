@@ -22,7 +22,7 @@
                 }									
 			],
           "outArguments": [],
-          "url": "http://requestbin.fullcontact.com/1fu4q7y1/execute",
+          "url": "https://requestbin.fullcontact.com/1fu4q7y1/execute",
            "verb": "POST",
             "body": "",
             "header": "",

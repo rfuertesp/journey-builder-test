@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/rfuertesp/journey-builder-test/issues"
   },
-  "homepage": "https://github.com/rfuertesp/journey-builder-test#readme"
+  "homepage": "https://github.com/rfuertesp/journey-builder-test#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }

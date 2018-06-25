@@ -8,7 +8,7 @@
     "type": "REST",
     "lang": {
         "en-US": {
-            "name": "Template",
+            "name": "Journey Builder Custom Activity",
           "description": "A Template for a custom Journey Builder activity",
           "step1Label": "Configure Activity"
         }
@@ -32,7 +32,7 @@
         }
     },
     "configurationArguments": {
-      "applicationExtensionKey": "fd4b4c3a-d86a-4e0d-b39a-4542dac142d3",
+      "applicationExtensionKey": "983e52d0-16c2-4e65-9dec-cd8c865996be",
       "save": {
         "url": "https://requestbin.fullcontact.com/1fu4q7y1/save",
           "verb": "POST",

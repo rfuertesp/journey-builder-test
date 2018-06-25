@@ -32,7 +32,7 @@
         }
     },
     "configurationArguments": {
-      "applicationExtensionKey": "983e52d0-16c2-4e65-9dec-cd8c865996be",
+      "applicationExtensionKey": "3540e2a6-61bc-4c12-8c61-8a5dbfe8cf73",
       "save": {
         "url": "https://requestbin.fullcontact.com/1fu4q7y1/save",
           "verb": "POST",

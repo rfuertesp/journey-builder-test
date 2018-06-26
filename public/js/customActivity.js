@@ -66,10 +66,7 @@ define([
     }
 
     function save() {
-        payload['arguments'].execute.inArguments.push = [{"tokens": authTokens}];
-        
         payload['metaData'].isConfigured = true;
-
 		var jsonText = JSON.stringify(payload);   
         console.log(jsonText);
         connection.trigger('updateActivity', payload);

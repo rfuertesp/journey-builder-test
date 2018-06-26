@@ -16,8 +16,10 @@
     "arguments": {
         "execute": {
            "inArguments":[
-			{"emailAddress": "{{Contact.Email}}"},
-			{"FirstName": "{{Contact.FirstName}}"}
+			{
+				"emailAddress": "{{Contact.Email}}",
+				"FirstName": "{{Contact.FirstName}}"
+			}
 			],
           "outArguments": [],
           "url": "https://requestinspector.com/inspect/01cgykfne954yqxgf91h5famz2",
@@ -65,15 +67,7 @@
     "schema": {
         "arguments": {
             "execute": {
-                "inArguments": [
-					{
-                        "emailAddress": {
-                            "dataType": "Email",
-                            "isNullable": false,
-                            "direction": "in"
-                        }
-                    }
-					],
+                "inArguments": [],
                 "outArguments": []
             }
         }

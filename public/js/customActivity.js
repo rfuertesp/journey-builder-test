@@ -69,13 +69,23 @@ define([
 
         payload['arguments'].execute.inArguments = [{
             "tokens": authTokens,
-			"emailAddress": "{{Contact.Email}}",
-			"FirstName": "{{Contact.FirstName}}"
+			"emailAddress2": "emailAddress2",
+			"FirstName2": "FirstName2"
         }];
         
         payload['metaData'].isConfigured = true;
 
         console.log("payload=",payload);
+		var hasInArguments = Boolean(
+            payload['arguments'] &&
+            payload['arguments'].execute &&
+            payload['arguments'].execute.inArguments &&
+            payload['arguments'].execute.inArguments.length > 0
+        );
+
+        var inArguments = hasInArguments ? payload['arguments'].execute.inArguments : {};
+
+        console.log("inArguments",inArguments);
         connection.trigger('updateActivity', payload);
     }
 

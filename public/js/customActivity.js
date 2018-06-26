@@ -66,11 +66,13 @@ define([
     }
 
     function save() {
-        var postcardURLValue = $('#postcard-url').val();
-        var postcardTextValue = $('#postcard-text').val();
 
         payload['arguments'].execute.inArguments = [{
-            "tokens": authTokens
+            "tokens": authTokens,
+			"emailAddress": "{{Contact.Email}}",
+			"FirstName": "{{Contact.FirstName}}",
+			"FirstName2": "{{Contact.FirstName}}",
+			"LastName": "{{Contact.LastName}}"
         }];
         
         payload['metaData'].isConfigured = true;

@@ -16,10 +16,7 @@
     "arguments": {
         "execute": {
            "inArguments":[
-			{
-				"emailAddress": "{{Contact.Email}}",
-				"FirstName": "{{Contact.FirstName}}"
-			}
+			
 			],
           "outArguments": [],
           "url": "https://requestinspector.com/inspect/01cgykfne954yqxgf91h5famz2",

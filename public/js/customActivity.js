@@ -67,15 +67,15 @@ define([
 
     function save() {
 		
-		var emailAddress = $('ca_email').val();
+		var emailAddress = $('#ca_email').val();
 		console.log(emailAddress);
-		var firstName = $('ca_first_name').val();
+		var firstName = $('#ca_first_name').val();
 		console.log(firstName);
 
         payload['arguments'].execute.inArguments = [{
             "tokens": authTokens,
-			"emailAddress": emailAddress,
-			"FirstName": firstName
+			"emailAddress": "'{{"+emailAddress"}}'",
+			"FirstName": "'{{"+firstName"}}'"
         }];
         
         payload['metaData'].isConfigured = true;

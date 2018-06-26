@@ -16,7 +16,9 @@
     "arguments": {
         "execute": {
            "inArguments":[
-			
+			{
+				"id": "{{Contact.Id}}"
+			}
 			],
           "outArguments": [],
           "url": "https://requestinspector.com/inspect/01cgykfne954yqxgf91h5famz2",

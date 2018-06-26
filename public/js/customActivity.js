@@ -75,17 +75,8 @@ define([
         
         payload['metaData'].isConfigured = true;
 
-        console.log("payload=",payload);
-		var hasInArguments = Boolean(
-            payload['arguments'] &&
-            payload['arguments'].execute &&
-            payload['arguments'].execute.inArguments &&
-            payload['arguments'].execute.inArguments.length > 0
-        );
-
-        var inArguments = hasInArguments ? payload['arguments'].execute.inArguments : {};
-
-        console.log(inArguments);
+		var jsonText = JSON.stringify(payload);   
+        console.log(jsonText);
         connection.trigger('updateActivity', payload);
     }
 

@@ -69,8 +69,8 @@ define([
 
         payload['arguments'].execute.inArguments = [{
             "tokens": authTokens,
-			"emailAddress": "{{Contact.Email}}",
-			"FirstName": "{{Contact.FirstName}}"
+			"emailAddress": "{{Contact:Email}}",
+			"FirstName": "{{Contact:FirstName}}"
         }];
         
         payload['metaData'].isConfigured = true;

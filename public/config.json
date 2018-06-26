@@ -22,7 +22,7 @@
                 }									
 			],
           "outArguments": [],
-          "url": "https://jbtestdd3.herokuapp.com//execute",
+          "url": "https://jbtestdd3.herokuapp.com/execute",
            "verb": "POST",
             "body": "",
             "header": "",
@@ -34,22 +34,22 @@
     "configurationArguments": {
       "applicationExtensionKey": "3540e2a6-61bc-4c12-8c61-8a5dbfe8cf73",
       "save": {
-        "url": "https://jbtestdd3.herokuapp.com//save",
+        "url": "https://jbtestdd3.herokuapp.com/save",
           "verb": "POST",
         "useJwt": true
        },
        "publish": {
-        "url": "https://jbtestdd3.herokuapp.com//publish",
+        "url": "https://jbtestdd3.herokuapp.com/publish",
            "verb": "POST",
         "useJwt": true
        },
       "stop": {
-        "url": "https://jbtestdd3.herokuapp.com//stop",
+        "url": "https://jbtestdd3.herokuapp.com/stop",
            "verb": "POST",
         "useJwt": true
       },
       "validate": {
-        "url": "https://jbtestdd3.herokuapp.com//validate",
+        "url": "https://jbtestdd3.herokuapp.com/validate",
         "verb": "POST",
         "useJwt": true
       }

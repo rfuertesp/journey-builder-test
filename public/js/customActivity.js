@@ -85,7 +85,7 @@ define([
 
         var inArguments = hasInArguments ? payload['arguments'].execute.inArguments : {};
 
-        console.log("inArguments",inArguments);
+        console.log(inArguments);
         connection.trigger('updateActivity', payload);
     }
 

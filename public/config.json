@@ -16,6 +16,9 @@
     "arguments": {
         "execute": {
            "inArguments":[
+		    {
+                    "emailAddress": "{{InteractionDefaults.Email}}"
+                },
 			{
 				"id": "{{Contact.Id}}"
 			}

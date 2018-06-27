@@ -17,41 +17,40 @@
         "execute": {
            "inArguments":[
 				{"emailAddress": "{{InteractionDefaults.Email}}"},
-				{"FirstName": "{{Contact.Attribute.VFS_Contacts.FirstName}}"},
-				{"FirstNameSF": "{{Contact.Attribute.Contact_Salesforce.FirstName}}"},
-				{"LastNameSF": "{{Contact.Attribute.Contact_Salesforce.LastName}}"}
+				{"FirstName": "{{Contact.Attribute.Contact_Salesforce.FirstName}}"},
+				{"LastName": "{{Contact.Attribute.Contact_Salesforce.LastName}}"}
 			],
           "outArguments": [],
-          "url": "https://requestinspector.com/inspect/01cgykfne954yqxgf91h5famz2",
+          "url": "https://jbtestdd3.herokuapp.com/execute",
            "verb": "POST",
             "body": "",
             "header": "",
             "format": "json",
-            "useJwt": false,
+            "useJwt": true,
             "timeout": 10000
         }
     },
     "configurationArguments": {
       "applicationExtensionKey": "3540e2a6-61bc-4c12-8c61-8a5dbfe8cf73",
       "save": {
-        "url": "https://requestinspector.com/inspect/01cgykfne954yqxgf91h5famz2",
+        "url": "https://jbtestdd3.herokuapp.com/save",
           "verb": "POST",
-        "useJwt": false
+        "useJwt": true
        },
        "publish": {
-        "url": "https://requestinspector.com/inspect/01cgykfne954yqxgf91h5famz2",
+        "url": "https://jbtestdd3.herokuapp.com/publish",
            "verb": "POST",
-        "useJwt": false
+        "useJwt": true
        },
       "stop": {
-        "url": "https://requestinspector.com/inspect/01cgykfne954yqxgf91h5famz2",
+        "url": "https://jbtestdd3.herokuapp.com/stop",
            "verb": "POST",
-        "useJwt": false
+        "useJwt": true
       },
       "validate": {
-        "url": "https://requestinspector.com/inspect/01cgykfne954yqxgf91h5famz2",
+        "url": "https://jbtestdd3.herokuapp.com/validate",
         "verb": "POST",
-        "useJwt": false
+        "useJwt": true
       }
     },
     "wizardSteps": [

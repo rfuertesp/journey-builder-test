@@ -65,7 +65,10 @@ define([
         console.log(endpoints);
     }
 
-    function save() {
+    function save() {		
+		JSONObject tokensObj = new JSONObject();
+		tokensObj.setString("tokens", authTokens);		
+		payload['arguments'].execute.inArguments.append(tokensObj);
         payload['metaData'].isConfigured = true;
 		var jsonText = JSON.stringify(payload);   
         console.log(jsonText);

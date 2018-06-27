@@ -65,25 +65,8 @@ define([
         console.log(endpoints);
     }
 
-    function save() {
-		
-		var hasInArguments = Boolean(
-            payload['arguments'] &&
-            payload['arguments'].execute &&
-            payload['arguments'].execute.inArguments &&
-            payload['arguments'].execute.inArguments.length > 0
-        );
-        var inArguments = hasInArguments ? payload['arguments'].execute.inArguments : {};
-		console.log(inArguments);	
-		var inArgumentsObj = JSON.parse(inArguments);
-		
-		
-		var tokensObj = { "tokens":authTokens};
-		
-		
-		inArgumentsObj.append(tokensObj);
-		console.log(inArguments);	
-		payload['arguments'].execute.inArguments=inArgumentsObj;
+    function save() {		
+		payload['arguments'].execute.inArguments.push({"tokens": authTokens});
         payload['metaData'].isConfigured = true;
 		var jsonText = JSON.stringify(payload);   
         console.log(jsonText);

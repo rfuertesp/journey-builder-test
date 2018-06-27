@@ -18,8 +18,11 @@
            "inArguments":[
 				{"emailAddress": "{{InteractionDefaults.Email}}"},
 				{"id": "{{Contact.Id}}"},
+				{"key": "{{Contact.Key}}"},
 				{"first_name1": "{{Contact.Attribute.DxDMadPE.Contact_Salesforce.FirstName}}"},
-				{"first_name2": "{{Contact.Attribute.DxDMadPE.FirstName}}"}
+				{"first_name2": "{{Contact.Attribute.DxDMadPE.FirstName}}"},
+				{"first_name3": "{{Contact.DxDMadPE.FirstName}}"},
+				{"first_name4": "{{Contact.Attribute.CA.FirstName}}"}
 			],
           "outArguments": [],
           "url": "https://requestinspector.com/inspect/01cgykfne954yqxgf91h5famz2",

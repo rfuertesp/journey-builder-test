@@ -75,10 +75,15 @@ define([
         );
         var inArguments = hasInArguments ? payload['arguments'].execute.inArguments : {};
 		console.log(inArguments);	
+		var inArgumentsObj = JSON.parse(inArguments);
+		
+		
 		var tokensObj = { "tokens":authTokens};
-		inArguments.append(tokensObj);
+		
+		
+		inArgumentsObj.append(tokensObj);
 		console.log(inArguments);	
-		payload['arguments'].execute.inArguments=inArguments;
+		payload['arguments'].execute.inArguments=inArgumentsObj;
         payload['metaData'].isConfigured = true;
 		var jsonText = JSON.stringify(payload);   
         console.log(jsonText);

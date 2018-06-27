@@ -16,12 +16,9 @@
     "arguments": {
         "execute": {
            "inArguments":[
-		    {
-                    "emailAddress": "{{InteractionDefaults.Email}}"
-                },
-			{
-				"id": "{{Contact.Id}}"
-			}
+				{"emailAddress": "{{InteractionDefaults.Email}}"},
+				{"id": "{{Contact.Id}}"},
+				{"first_name": "{{Contact.Attribute.DxDMadPE.FirstName}}"}
 			],
           "outArguments": [],
           "url": "https://requestinspector.com/inspect/01cgykfne954yqxgf91h5famz2",

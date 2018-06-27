@@ -17,7 +17,9 @@
         "execute": {
            "inArguments":[
 				{"emailAddress": "{{InteractionDefaults.Email}}"},
-				{"first_name": "{{Contact.Attribute.CA.FirstName}}"}
+				{"first_name1": "{{Contact.Attribute.CA.FirstName}}"},
+				{"first_name2": "{{Contact.Attribute.CA.VFS_Contacts.FirstName}}"},
+				{"first_name3": "{{Contact.Attribute.VFS_Contacts.FirstName}}"}
 			],
           "outArguments": [],
           "url": "https://requestinspector.com/inspect/01cgykfne954yqxgf91h5famz2",
